@@ -20,6 +20,9 @@ where:
 	μ= drift
 	σ= volatility
 	dW_t= Wiener process (random noise)
+
+	<img width="1195" height="672" alt="Screenshot 2025-12-16 005155" src="https://github.com/user-attachments/assets/294ebbba-67d7-499b-b80c-395eab775b26" />
+
  Black–Scholes Partial Differential Equation :
 For an option price V(S,t), the Black–Scholes PDE is:
 ▭(∂V/∂t+1/2 σ^2 S^2  (∂^2 V)/(∂S^2 )+rS ∂V/∂S-rV=0)
@@ -29,7 +32,6 @@ V=constant potential term
 S=price of stock
 
 Using the terms of the above Black-Scholes equation the Schodringer’s Market model equation is expressed as followed-
-
 Schrödinger-type equation -
 The evolution equation for the wavefunction becomes:
 ▭((i∂ψ)/∂t=(-1)/2 σ^2  (∂^2 ψ)/(∂x^2 )+μ ∂ψ/∂x+Uψ)
@@ -38,7 +40,11 @@ where:
 σ^2→ volatility (diffusion strength)[Kinetic of Market]
 μ= drift
 Ψ=wave function(probability amplitude of the stock price over time)
-U→ constant potential term(Market Potential)
+U→ constant potential term(Market Potential
+
+
+The movement of stocks also seems to obey the Heisenberg’s uncertainity principle-
+“The uncertainty principle (4) can be often seen in finance. For example, at a certain time someone knows nothing but the exact price of a stock. As a result, he certainly does not know the rate of price change at next time and the direction of the price’s movement. In other words, the uncertainty of the trend seems to be infinite” –( A quantum model for the stock market)
 
 
 
